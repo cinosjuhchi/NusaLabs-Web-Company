@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     siteName: "NusaLabs Solutions",
     title: "NusaLabs Solutions — Digital products with direction",
     description: "High-converting digital products engineered for ambitious teams.",
-    images: [{ url: "/brand/nusalabs-solutions.jpg", width: 595, height: 290, alt: "NusaLabs Solutions" }]
+    images: [{ url: "/opengraph-image", width: 1200, height: 630, alt: "NusaLabs Solutions — Digital products with direction" }]
   },
   twitter: {
     card: "summary_large_image",
     title: "NusaLabs Solutions — Digital products with direction",
     description: "High-converting digital products engineered for ambitious teams.",
-    images: ["/brand/nusalabs-solutions.jpg"]
+    images: ["/opengraph-image"]
   },
   icons: { icon: "/brand/nusalabs-solutions.jpg" }
 };
