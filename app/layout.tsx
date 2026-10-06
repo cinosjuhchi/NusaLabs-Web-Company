@@ -5,9 +5,10 @@ import { LanguageProvider } from "@/components/LanguageProvider";
 
 const oswald = Oswald({ subsets: ["latin"], variable: "--font-oswald" });
 const jakarta = Plus_Jakarta_Sans({ subsets: ["latin"], variable: "--font-jakarta" });
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://nusa-labs-web-company.vercel.app";
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL ?? "https://nusalabs.solutions"),
+  metadataBase: new URL(siteUrl),
   title: "NusaLabs Solutions — Digital products with direction",
   description: "NusaLabs Solutions builds high-converting digital products for ambitious teams.",
   applicationName: "NusaLabs Solutions",
